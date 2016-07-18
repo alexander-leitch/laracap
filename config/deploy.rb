@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.5.0'
 
-set :application, 'primedia-api'
-set :repo_url, 'git@github.com:primediabroadcasting/primedia-api.git'
+set :application, 'laracap'
+set :repo_url, 'git@github.com:alexander-leitch/laracap.git'
 
 namespace :environment do
     desc "Set environment variables"
