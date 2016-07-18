@@ -1,0 +1,24 @@
+# Logfile created on 2016-07-18 11:57:14 +0200 by logger.rb/47272
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-18 11:57:14 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6aa74cb1] Running /usr/bin/env mkdir -p /tmp/primedia-api/ as vagrant@10.1.128.23
+ DEBUG [6aa74cb1] Command: /usr/bin/env mkdir -p /tmp/primedia-api/
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-07-18 11:58:01 +0200 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3c3db634] Running /usr/bin/env mkdir -p /tmp/primedia-api/ as alexanderl-a@10.1.128.23
+ DEBUG [3c3db634] Command: /usr/bin/env mkdir -p /tmp/primedia-api/
+  INFO [3c3db634] Finished in 0.494 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/primedia-api/git-ssh.sh 0.0%
+  INFO Uploading /tmp/primedia-api/git-ssh.sh 100.0%
+  INFO [8c1240dc] Running /usr/bin/env chmod +rx /tmp/primedia-api/git-ssh.sh as alexanderl-a@10.1.128.23
+ DEBUG [8c1240dc] Command: /usr/bin/env chmod +rx /tmp/primedia-api/git-ssh.sh
+  INFO [8c1240dc] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [92d33caf] Running /usr/bin/env git ls-remote --heads git@github.com:primediabroadcasting/primedia-api.git as alexanderl-a@10.1.128.23
+ DEBUG [92d33caf] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/primedia-api/git-ssh.sh" ; /usr/bin/env git ls-remote --heads git@github.com:primediabroadcasting/primedia-api.git )
+ DEBUG [92d33caf] 	Permission denied (publickey).
+ DEBUG [92d33caf] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
